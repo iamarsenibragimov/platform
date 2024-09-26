@@ -44,6 +44,8 @@
         <env name="SCOUT_DRIVER" value="collection"/>
         <env name="SCOUT_QUEUE" value="true"/>
         <env name="QUEUE_DRIVER" value="sync"/>
+        <env name="DUSK_SERVE_HOST" value="127.0.0.1"/>
+        <env name="DUSK_SERVE_PORT" value="8001"/>
     </php>
     <logging/>
 </phpunit>
