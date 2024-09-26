@@ -48,10 +48,6 @@ abstract class TestBrowserCase extends TestCase
         ]);
 
         config()->set('platform.prevents_abandonment', false);
-
-        if (isset($_SERVER['CI'])) {
-            Options::withoutUI();
-        }
     }
 
     protected function createAdminUser(array $attributes = []): User
